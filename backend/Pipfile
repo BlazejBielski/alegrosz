@@ -10,6 +10,8 @@ dj-database-url = "==1.2.0"
 djangorestframework = "==3.14.0"
 drf-spectacular = "==0.25.1"
 django-debug-toolbar = "==3.8.1"
+pillow = "==9.4.0"
+python-magic = "==0.4.27"
 
 [dev-packages]
 

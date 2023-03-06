@@ -6,6 +6,7 @@ app_name = 'product'
 
 router = DefaultRouter()
 router.register(r'products', viewsets.ProductViewSet, basename='product-view-set')
+router.register(r'images', viewsets.PictureViewSet, basename='image-view-set')
 
 urlpatterns = [
     *router.urls
