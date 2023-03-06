@@ -8,6 +8,7 @@ from . import serializers
 
 class ProductViewSet(ModelViewSet):
     queryset = models.Product.objects.all()
+    serializer_class = serializers.ProductSerializer
 
     def list(self, request, *args, **kwargs):
         serializer = serializers.ProductSerializer(self.queryset, many=True)
